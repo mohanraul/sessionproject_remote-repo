@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form action="/qualview">
+      <h1>Salary Registration Page</h1>
+      {{form.as_p}}
+      {%csrf_token%}
+     <input type="submit" value="Submit Salary">
+    </form>
+
+  </body>
+</html>
